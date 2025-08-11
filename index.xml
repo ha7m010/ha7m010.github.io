@@ -51,18 +51,18 @@
       <description>&lt;p&gt;test&lt;/p&gt;</description>
     </item>
     <item>
-      <title>About Hugo Paged</title>
-      <link>https://ha7m010.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ha7m010.github.io/about/</guid>
-      <description>&lt;p&gt;I immediately loved the design of &lt;a href=&#34;https://pagedjs.org&#34;&gt;the paged.js website&lt;/a&gt; when I first saw it a couple of years ago.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; I have published a few books before, so the crop marks on the website caught my attention first, which gave me a familiar feel of printed books. The second thing that I appreciated was the rotated floral heart bullet behind the title of each page, i.e.,&lt;/p&gt;&#xA;&lt;div style=&#34;font-size:9em;text-align:center;color:#ccc;&#34;&gt;❧&lt;/div&gt;&#xA;&lt;p&gt;So I wrote a Hugo theme that mimics the style of the paged.js website. I tried not to look at its HTML/CSS source code, but I had to read the source to figure out:&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Search</title>
       <link>https://ha7m010.github.io/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ha7m010.github.io/search/</guid>
       <description>&lt;p&gt;The searching is performed via fuse.js. For the search keywords, white spaces act as the &lt;code&gt;AND&lt;/code&gt; operator, and &lt;code&gt;|&lt;/code&gt; acts as the &lt;code&gt;OR&lt;/code&gt; operator. To match an exact phrase, double quote it. For example, &lt;code&gt;R Markdown&lt;/code&gt; matches articles that contain both &lt;code&gt;R&lt;/code&gt; and &lt;code&gt;Markdown&lt;/code&gt;, &lt;code&gt;R | Markdown&lt;/code&gt; matches articles that contain &lt;code&gt;R&lt;/code&gt; or &lt;code&gt;Markdown&lt;/code&gt;, and &lt;code&gt;&amp;quot;R Markdown&amp;quot;&lt;/code&gt; matches articles that contain the whole phrase &lt;code&gt;R Markdown&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;style type=&#34;text/css&#34;&gt;&#xA;.main {&#xA;  width: 100%;&#xA;}&#xA;#search-input {&#xA;  width: 100%;&#xA;  font-size: 1.2em;&#xA;  padding: .5em;&#xA;}&#xA;.search-results b {&#xA;  background-color: yellow;&#xA;}&#xA;.search-preview {&#xA;  margin-left: 2em;&#xA;}&#xA;.single .main a, .single .main h2 {&#xA;  border-bottom: none;&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;input type=&#34;search&#34; id=&#34;search-input&#34;&gt;&#xA;&lt;div class=&#34;search-results&#34;&gt;&#xA;&lt;section&gt;&#xA;&lt;h2 class=&#34;toc-line&#34;&gt;&lt;a target=&#34;_blank&#34;&gt;&lt;/a&gt;&lt;span class=&#34;dots&#34;&gt;&lt;/span&gt;&lt;span class=&#34;page-num small&#34;&gt;&lt;/span&gt;&lt;/h2&gt;&#xA;&lt;div class=&#34;search-preview&#34;&gt;&lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&lt;/div&gt;&#xA;&lt;script src=&#34;https://cdn.jsdelivr.net/npm/fuse.js@6.6.2&#34; defer&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://cdn.jsdelivr.net/npm/@xiee/utils/js/fuse-search.min.js&#34; defer&gt;&lt;/script&gt;</description>
+    </item>
+    <item>
+      <title>thest</title>
+      <link>https://ha7m010.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ha7m010.github.io/about/</guid>
+      <description>&lt;p&gt;helloworld&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
