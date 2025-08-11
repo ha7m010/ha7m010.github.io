@@ -2,59 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/docs/01-intro/</loc>
+    <loc>https://ha7m010.github.io/docs/01-intro/</loc>
   </url><url>
-    <loc>/docs/02-get-started/</loc>
+    <loc>https://ha7m010.github.io/docs/02-get-started/</loc>
   </url><url>
-    <loc>/docs/03-customization/</loc>
+    <loc>https://ha7m010.github.io/docs/03-customization/</loc>
   </url><url>
-    <loc>/blog/2016-02-14-hello-markdown/</loc>
+    <loc>https://ha7m010.github.io/blog/2016-02-14-hello-markdown/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/</loc>
+    <loc>https://ha7m010.github.io/blog/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/blogdown/</loc>
+    <loc>https://ha7m010.github.io/tags/blogdown/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://ha7m010.github.io/categories/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/example/</loc>
+    <loc>https://ha7m010.github.io/categories/example/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://ha7m010.github.io/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/hugo/</loc>
+    <loc>https://ha7m010.github.io/categories/hugo/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/katex/</loc>
+    <loc>https://ha7m010.github.io/tags/katex/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/markdown/</loc>
+    <loc>https://ha7m010.github.io/tags/markdown/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/pandoc/</loc>
+    <loc>https://ha7m010.github.io/tags/pandoc/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/rstudio/</loc>
+    <loc>https://ha7m010.github.io/tags/rstudio/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://ha7m010.github.io/tags/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/2015-07-23-lorem-ipsum/</loc>
+    <loc>https://ha7m010.github.io/blog1/</loc>
     <lastmod>2015-07-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://ha7m010.github.io/blog/2015-07-23-lorem-ipsum/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/docs/</loc>
+    <loc>https://ha7m010.github.io/blog1/test/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/hugo/</loc>
+    <loc>https://ha7m010.github.io/about/</loc>
   </url><url>
-    <loc>/search/</loc>
+    <loc>https://ha7m010.github.io/docs/</loc>
   </url><url>
-    <loc>/tags/tutorial/</loc>
+    <loc>https://ha7m010.github.io/tags/hugo/</loc>
+  </url><url>
+    <loc>https://ha7m010.github.io/search/</loc>
+  </url><url>
+    <loc>https://ha7m010.github.io/tags/tutorial/</loc>
   </url>
 </urlset>
