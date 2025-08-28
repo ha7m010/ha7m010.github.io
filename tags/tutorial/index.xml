@@ -11,7 +11,13 @@ blogdown::new_site(theme = 'yihui/hugo-paged')
 &lt;li>&lt;a href="https://github.com/yihui/hugo-paged/archive/refs/heads/main.zip">Download this theme from Github&lt;/a> and unzip it to the &lt;code>themes/hugo-paged&lt;/code> directory.&lt;/li>
 &lt;li>Move all content of the &lt;code>exampleSite&lt;/code> directory in this theme to the root directory of the new site.&lt;/li>
 &lt;li>Run &lt;code>hugo server&lt;/code> and start playing with the new site.&lt;/li>
-&lt;/ol></description></item><item><title>Customization</title><link>/docs/03-customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/03-customization/</guid><description>&lt;p>The more you know, the less real work you will get done. You have been warned.&lt;/p>
-&lt;h2 id="site-config">Site config&lt;/h2>
+&lt;/ol></description></item><item><title>Customization</title><link>/docs/03-customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/03-customization/</guid><description>&lt;h2 id="site-config">Site config&lt;/h2>
 &lt;p>In your site config file (&lt;code>hugo.yaml&lt;/code> or &lt;code>config.yaml&lt;/code>), you can customize some options such as the top menu or footer, which should be straightforward to understand if you take a look at the &lt;code>exampleSite&lt;/code>&amp;rsquo;s config file.&lt;/p>
-&lt;p>If you want to add a logo to the left of the top navigation bar, you can use the &lt;code>logo&lt;/code> parameter, e.g.,&lt;/p></description></item></channel></rss>
+&lt;p>If you want to add a logo to the left of the top navigation bar, you can use the &lt;code>logo&lt;/code> parameter, e.g.,&lt;/p>
+&lt;pre>&lt;code class="language-yaml">params:
+ logo:
+ en:
+ alt: &amp;quot;LOGO TEXT&amp;quot;
+ img: # a path to the logo
+&lt;/code>&lt;/pre>
+&lt;p>If the image (&lt;code>img&lt;/code>) is not provided, the &lt;code>alt&lt;/code> text will be displayed instead.&lt;/p></description></item></channel></rss>
