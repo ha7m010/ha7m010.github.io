@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on A Hugo theme inspired by paged.js</title><link>/</link><description>Recent content in Home on A Hugo theme inspired by paged.js</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>/docs/01-intro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/01-intro/</guid><description>&lt;p>The Hugo Paged theme was inspired by &lt;a href="https://pagedjs.org">the paged.js website&lt;/a>.&lt;/p>
+&lt;h2 id="the-pagedjs-website">The paged.js website&lt;/h2>
+&lt;p>The paged.js library is awesome. Its website is also beautiful.&lt;/p>
+&lt;h3 id="the-crop-marks">The crop marks&lt;/h3>
+&lt;p>I love the crop marks. I couldn&amp;rsquo;t imagine that they were made from three rectangles:&lt;/p>
+&lt;pre>&lt;code class="language-html">&amp;lt;div class=&amp;quot;crop-h&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;!-- horizontal lines --&amp;gt;
+&amp;lt;div class=&amp;quot;crop-v&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;!-- vertical lines --&amp;gt;
+&amp;lt;div class=&amp;quot;crop-c&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;!-- cover some segments --&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;p>Make their position absolute, and shrink them a little bit:&lt;/p></description></item><item><title>Getting started</title><link>/docs/02-get-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/02-get-started/</guid><description>&lt;p>There are two ways to get started with this theme, depending on whether you use R or Hugo.&lt;/p>
+&lt;h2 id="r-users">R users&lt;/h2>
+&lt;p>If you use R, the easiest way to get started is to install &lt;a href="https://github.com/rstudio/blogdown">the &lt;strong>blogdown&lt;/strong> package&lt;/a>, and create a new site with this theme:&lt;/p>
+&lt;pre>&lt;code class="language-r">install.packages('blogdown')
+blogdown::new_site(theme = 'yihui/hugo-paged')
+&lt;/code>&lt;/pre>
+&lt;p>Or you can &lt;a href="https://bookdown.org/yihui/blogdown/a-quick-example.html">create a new RStudio &lt;strong>blogdown&lt;/strong> project&lt;/a> (if you use RStudio) with the &lt;code>yihui/hugo-paged&lt;/code> theme.&lt;/p>
+&lt;h2 id="hugo-users">Hugo users&lt;/h2>
+&lt;ol>
+&lt;li>Create a new Hugo site with &lt;code>hugo new&lt;/code>.&lt;/li>
+&lt;li>&lt;a href="https://github.com/yihui/hugo-paged/archive/refs/heads/main.zip">Download this theme from Github&lt;/a> and unzip it to the &lt;code>themes/hugo-paged&lt;/code> directory.&lt;/li>
+&lt;li>Move all content of the &lt;code>exampleSite&lt;/code> directory in this theme to the root directory of the new site.&lt;/li>
+&lt;li>Run &lt;code>hugo server&lt;/code> and start playing with the new site.&lt;/li>
+&lt;/ol></description></item><item><title>Customization</title><link>/docs/03-customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/03-customization/</guid><description>&lt;p>The more you know, the less real work you will get done. You have been warned.&lt;/p>
+&lt;h2 id="site-config">Site config&lt;/h2>
+&lt;p>In your site config file (&lt;code>hugo.yaml&lt;/code> or &lt;code>config.yaml&lt;/code>), you can customize some options such as the top menu or footer, which should be straightforward to understand if you take a look at the &lt;code>exampleSite&lt;/code>&amp;rsquo;s config file.&lt;/p>
+&lt;p>If you want to add a logo to the left of the top navigation bar, you can use the &lt;code>logo&lt;/code> parameter, e.g.,&lt;/p></description></item><item><title>对Digdeeper的一些评论</title><link>/blog/2025-08-28-thoughts-of-digdeeper/</link><pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate><guid>/blog/2025-08-28-thoughts-of-digdeeper/</guid><description>&lt;h1 id="关于--的一些思考">关于 &lt;a href="https://digdeeper.love/">https://digdeeper.love/&lt;/a> 的一些思考&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>若无特别说明，中文翻译由&lt;a href="https://cn.bing.com/translator">Microsoft Bing translator（中国）&lt;/a>提供，我进行修补，但主要是格式修补和全宽半宽符号更改，内容基本不变。&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>如果是资料的引用，如「某某文章说到……」某某文章若有超链接直接显示，是对其原文引用。&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>若是扩展阅读，会使用角标标注。作为特例，某些原文也值得点进去看一看的，会两个都标&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>英文原文的内容不改动原文超链接的规则，但删除了其中MozArchive的链接与文本，中文翻译会进行如上述修补&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>写完后记：编辑东西这种活真是恶心啊，什么都要改什么都要干，而且经常性不满意，工作时间还贼长。&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>有些地方的&amp;quot;achieve&amp;quot;链接是&amp;quot;（）&amp;ldquo;包裹在内的（链接同时包括了括号）而有些是&amp;rdquo;()&amp;ldquo;在外,只有&amp;quot;achieve&amp;quot;的字符在链接。&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>有一处英文原文链接格式上有问题，但我记不得了。&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>倒数第二处评论有引用两处原文的链接没有打上超链接的符号。&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>目录里面有个没有内容的列表我也不知道怎么回事。&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>有些地方的（）并未区分全宽与半宽。&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>以上五点可能是值得编辑工作的，但是我即使有时间也可能不会去改了哈哈，长文章编辑真是太累太恶心了。&lt;/strong>&lt;/p>
+&lt;h2 id="doh">&lt;a href="https://digdeeper.love/articles/fake_initiatives.xhtml#dnt">DoH&lt;/a>&lt;/h2>
+&lt;blockquote>
+&lt;p>Invented in 2009, this browser header tells websites you visit that you do not want to be tracked. 9 years and thousands of articles and discussions about DNT later, and there is still not even a standard for what &amp;ldquo;tracking&amp;rdquo; exactly is it supposed to prevent - even though they promised to create one long ago. Needless to say, websites can interpret DNT however they want, or even ignore it altogether. How much effort has been wasted on this dud - effort that could have been spent on creating and improving browser extensions that actually protect you from tracking. DNT, on the other hand, just gives the illusion of privacy to unsuspecting users - which is worse than doing nothing at all. Let&amp;rsquo;s be real here - cooperating with trackers could have never worked anyway - since they don&amp;rsquo;t care about playing fair.&lt;/p></description></item><item><title>A Plain Markdown Post</title><link>/blog/2016-02-14-hello-markdown/</link><pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-14-hello-markdown/</guid><description>&lt;h2 id="sample-text">Sample Text&lt;/h2>
+&lt;h3 id="third-level-header">Third-level header&lt;/h3>
+&lt;h4 id="fourth-level-header">Fourth-level header&lt;/h4>
+&lt;p>A paragraph (with a footnote):&lt;/p>
+&lt;p>&lt;strong>Lorem ipsum&lt;/strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore &lt;em>magna aliqua&lt;/em>. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p></description></item><item><title>Lorem Ipsum</title><link>/blog/2015-07-23-lorem-ipsum/</link><pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate><guid>/blog/2015-07-23-lorem-ipsum/</guid><description>&lt;p>&lt;strong>Lorem ipsum&lt;/strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore &lt;em>magna aliqua&lt;/em>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+&lt;p>Quisque mattis volutpat lorem vitae feugiat. Praesent porta est quis porta imperdiet. Aenean porta, mi non cursus volutpat, mi est mollis libero, id suscipit orci urna a augue. In fringilla euismod lacus, vitae tristique massa ultricies vitae. Mauris accumsan ligula tristique, viverra nulla sed, porta sapien. Vestibulum facilisis nec nisl blandit convallis. Maecenas venenatis porta malesuada. Ut ac erat tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla sodales quam sit amet tincidunt egestas. In et turpis at orci vestibulum ullamcorper. Aliquam sed ante libero. Sed hendrerit arcu lacus.&lt;/p></description></item><item><title>About Hugo Paged</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>&lt;p>I immediately loved the design of &lt;a href="https://pagedjs.org">the paged.js website&lt;/a> when I first saw it a couple of years ago.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> I have published a few books before, so the crop marks on the website caught my attention first, which gave me a familiar feel of printed books. The second thing that I appreciated was the rotated floral heart bullet behind the title of each page, i.e.,&lt;/p>
+&lt;div style="font-size:9em;text-align:center;color:#ccc;">❧&lt;/div>
+&lt;p>So I wrote a Hugo theme that mimics the style of the paged.js website. I tried not to look at its HTML/CSS source code, but I had to read the source to figure out:&lt;/p></description></item><item><title>Search</title><link>/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/search/</guid><description>&lt;p>The searching is performed via fuse.js. For the search keywords, white spaces act as the &lt;code>AND&lt;/code> operator, and &lt;code>|&lt;/code> acts as the &lt;code>OR&lt;/code> operator. To match an exact phrase, double quote it. For example, &lt;code>R Markdown&lt;/code> matches articles that contain both &lt;code>R&lt;/code> and &lt;code>Markdown&lt;/code>, &lt;code>R | Markdown&lt;/code> matches articles that contain &lt;code>R&lt;/code> or &lt;code>Markdown&lt;/code>, and &lt;code>&amp;quot;R Markdown&amp;quot;&lt;/code> matches articles that contain the whole phrase &lt;code>R Markdown&lt;/code>.&lt;/p>
+&lt;style type="text/css">
+.main {
+ width: 100%;
+}
+#search-input {
+ width: 100%;
+ font-size: 1.2em;
+ padding: .5em;
+}
+.search-results b {
+ background-color: yellow;
+}
+.search-preview {
+ margin-left: 2em;
+}
+.single .main a, .single .main h2 {
+ border-bottom: none;
+}
+&lt;/style>
+&lt;input type="search" id="search-input">
+&lt;div class="search-results">
+&lt;section>
+&lt;h2 class="toc-line">&lt;a target="_blank">&lt;/a>&lt;span class="dots">&lt;/span>&lt;span class="page-num small">&lt;/span>&lt;/h2>
+&lt;div class="search-preview">&lt;/div>
+&lt;/section>
+&lt;/div>
+&lt;script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2" defer>&lt;/script>
+&lt;script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/fuse-search.min.js" defer>&lt;/script></description></item></channel></rss>
