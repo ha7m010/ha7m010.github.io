@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on A Hugo theme inspired by paged.js</title><link>/</link><description>Recent content in Home on A Hugo theme inspired by paged.js</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>/docs/01-intro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/01-intro/</guid><description>&lt;p>The Hugo Paged theme was inspired by &lt;a href="https://pagedjs.org">the paged.js website&lt;/a>.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on A Hugo theme inspired by paged.js</title><link>/</link><description>Recent content in Home on A Hugo theme inspired by paged.js</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 14 Feb 2016 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>/docs/01-intro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/01-intro/</guid><description>&lt;p>The Hugo Paged theme was inspired by &lt;a href="https://pagedjs.org">the paged.js website&lt;/a>.&lt;/p>
 &lt;h2 id="the-pagedjs-website">The paged.js website&lt;/h2>
 &lt;p>The paged.js library is awesome. Its website is also beautiful.&lt;/p>
 &lt;h3 id="the-crop-marks">The crop marks&lt;/h3>
@@ -29,43 +29,7 @@ blogdown::new_site(theme = 'yihui/hugo-paged')
  alt: &amp;quot;LOGO TEXT&amp;quot;
  img: # a path to the logo
 &lt;/code>&lt;/pre>
-&lt;p>If the image (&lt;code>img&lt;/code>) is not provided, the &lt;code>alt&lt;/code> text will be displayed instead.&lt;/p></description></item><item><title>对Digdeeper的一些评论</title><link>/blog/2025-08-28-thoughts-of-digdeeper/</link><pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate><guid>/blog/2025-08-28-thoughts-of-digdeeper/</guid><description>&lt;h1 id="关于--的一些思考">关于 &lt;a href="https://digdeeper.love/">https://digdeeper.love/&lt;/a> 的一些思考&lt;/h1>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>若无特别说明，中文翻译由&lt;a href="https://cn.bing.com/translator">Microsoft Bing translator（中国）&lt;/a>提供，我进行修补，但主要是格式修补和全宽半宽符号更改，内容基本不变。&lt;/strong>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>如果是资料的引用，如「某某文章说到……」某某文章若有超链接直接显示，是对其原文引用。&lt;/strong>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>若是扩展阅读，会使用角标标注。作为特例，某些原文也值得点进去看一看的，会两个都标&lt;/strong>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>英文原文的内容不改动原文超链接的规则，但删除了其中MozArchive的链接与文本，中文翻译会进行如上述修补&lt;/strong>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>写完后记：编辑东西这种活真是恶心啊，什么都要改什么都要干，而且经常性不满意，工作时间还贼长。&lt;/strong>&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>有些地方的&amp;quot;achieve&amp;quot;链接是&amp;quot;（）&amp;ldquo;包裹在内的（链接同时包括了括号）而有些是&amp;rdquo;()&amp;ldquo;在外,只有&amp;quot;achieve&amp;quot;的字符在链接。&lt;/strong>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>有一处英文原文链接格式上有问题，但我记不得了。&lt;/strong>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>倒数第二处评论有引用两处原文的链接没有打上超链接的符号。&lt;/strong>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>目录里面有个没有内容的列表我也不知道怎么回事。&lt;/strong>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>有些地方的（）并未区分全宽与半宽。&lt;/strong>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;p>&lt;strong>以上五点可能是值得编辑工作的，但是我即使有时间也可能不会去改了哈哈，长文章编辑真是太累太恶心了。&lt;/strong>&lt;/p>
-&lt;h2 id="doh">&lt;a href="https://digdeeper.love/articles/fake_initiatives.xhtml#dnt">DoH&lt;/a>&lt;/h2>
-&lt;blockquote>
-&lt;p>Invented in 2009, this browser header tells websites you visit that you do not want to be tracked. 9 years and thousands of articles and discussions about DNT later, and there is still not even a standard for what &amp;ldquo;tracking&amp;rdquo; exactly is it supposed to prevent - even though they promised to create one long ago. Needless to say, websites can interpret DNT however they want, or even ignore it altogether. How much effort has been wasted on this dud - effort that could have been spent on creating and improving browser extensions that actually protect you from tracking. DNT, on the other hand, just gives the illusion of privacy to unsuspecting users - which is worse than doing nothing at all. Let&amp;rsquo;s be real here - cooperating with trackers could have never worked anyway - since they don&amp;rsquo;t care about playing fair.&lt;/p></description></item><item><title>A Plain Markdown Post</title><link>/blog/2016-02-14-hello-markdown/</link><pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-14-hello-markdown/</guid><description>&lt;h2 id="sample-text">Sample Text&lt;/h2>
+&lt;p>If the image (&lt;code>img&lt;/code>) is not provided, the &lt;code>alt&lt;/code> text will be displayed instead.&lt;/p></description></item><item><title>A Plain Markdown Post</title><link>/blog/2016-02-14-hello-markdown/</link><pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-14-hello-markdown/</guid><description>&lt;h2 id="sample-text">Sample Text&lt;/h2>
 &lt;h3 id="third-level-header">Third-level header&lt;/h3>
 &lt;h4 id="fourth-level-header">Fourth-level header&lt;/h4>
 &lt;p>A paragraph (with a footnote):&lt;/p>
